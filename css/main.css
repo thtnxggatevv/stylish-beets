@@ -1,100 +1,81 @@
 html {
-  background-color: #c9b5ab;
+  background-color: #c9b5ae;
 }
 
-h1 {
-  font-family: "PT Sans", sans-serif;
-  color: #3f1622;
-}
-
-h2 {
-  font-family: "PT Sans", sans-serif;
-  color: #3f1622;
-}
-
-#nav-style {
-  list-style-type: none;
+h1, h2 {
+  color: #471c38;
   font-family: "PT Sans", sans-serif;
   font-weight: bold;
-  font-size: 1.125rem;
 }
 
-#paragraph {
-  font-weight: normal;
-}
-
-a {
-  color: #8f2440;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #8f2440;
-  text-decoration: none;
+nav,
+.list-1 {
+  font-family: "PT Sans", sans-serif;
+  font-weight: bold;
+  color: #99213d;
+  list-style-type: none;
 }
 
 img {
   width: 100%;
 }
 
-strong {
-  font-weight: normal;
+figcaption {
+  font-style: italic;
+  text-align: center;
 }
 
-ol {
+.large-text {
+  font-family: "PT Serif", serif;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.body-text {
+  font-family: "PT Serif", serif;
+  font-weight: normal;
+  line-height: 1.5;
+}
+
+blockquote {
+  font-family: "PT Serif", serif;
+  font-style: italic;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.chris-pratt {
+  font-weight: normal;
+  font-size: 1.5rem;
+}
+
+.list-2 {
+  font-family: "PT Serif", serif;
   list-style-type: lower-greek;
 }
 
-.italic {
+h2 + p {
   font-style: italic;
-  font-family: "PT Serif", serif;
 }
 
-figcaption {
+dl, ul, footer {
   font-family: "PT Serif", serif;
-  text-align: center;
-  font-style: italic;
-  font-size: 1.125rem;
 }
 
 dt {
-  font-family: "PT Serif", serif;
   font-weight: bold;
-}
-
-dd {
-  font-family: "PT Serif", serif;
 }
 
 ul {
   list-style-type: circle;
-  font-family: "PT Serif", serif;
-  font-size: .8rem;
 }
 
-.boldfont {
-  font-size: 1.125rem;
-  font-family: "PT Serif", serif;
-  font-weight: bold;
-  text-align: left;
+a {
+  color: #99213d;
+  text-decoration: none;
 }
 
-p {
-  text-align: left;
-  font-family: "PT Serif", serif;
-}
-
-blockquote {
-  font-size: 1.5rem;
-  font-style: italic;
-  font-family: "PT Serif", serif;
-}
-
-.chrispratt {
-  line-height: 6rem;
-  font-size: .8rem;
-}
-
-.link {
-  font-family: "PT Serif", serif;
+a:hover {
+  color: #471c38;
+  text-decoration: underline;
 }
