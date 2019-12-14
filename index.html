@@ -1,55 +1,74 @@
-
 <!DOCTYPE html>
-<html lang="en-ca">
+<html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Stylish Beets</title>
+  <title>Beetroot (Beta vulgaris)</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans:700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=PT+Serif:700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans:700" rel="stylesheet">
+
   <link href="css/main.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i|PT+Serif:400,400i,700,700i" rel="stylesheet">
 </head>
 <body>
   <header>
-    <h1>Beetroot <i>(Beta vulgaris)</i></h1>
+    <h1>Beetroot (<i>Beta Vulgaris</i>)</h1>
     <nav>
-      <ol class="current">
-        <li><a href="#">Common varieties</a></li>
-        <li><a href="#">Nutritional information</a></li>
-        <li><a href="#">Tags</a></li>
+      <ol id="nav-style">
+        <li> <a href="#">Common varieties</a> </li>
+        <li> <a href="#">Nutritional information</a> </li>
+        <li> <a href="#">Tags</a> </li>
       </ol>
     </nav>
-  </header>
-  <main>
+
     <figure>
-      <img src="images/beets.jpg">
+      <img src="images/beets.jpg" alt="">
       <figcaption>
-        <p> A bundle of organic beets from a local farm</p>
+        A bundle of organic beets from a local farm food co-op program
       </figcaption>
     </figure>
-    <data value="55 to 65 days">55 to 65 days are needed from germation to harvest the root.</data>
-    <p>The usually deep purple roots of the <b>beetroot</b> are eaten either grilled, boiled, or roasted as a cooked vegetable, cold as a salad after cooing and adding oil and vinegar, or raw and shredded, either alone or combined with any salad vegetable.</p>
-    <blockquote>
-      <p>In fact, <cite>Jim Halpert</cite>once said this about beets,<q>"Fact, bears eats beets. Bears, beets, <i>Battlestar Galactica</i>"</q></p>
-    </blockquote>
-    <p>I have some <em>weird</em>habits. For instance,<strong>I love beets</strong>. Show me a salad bar and I will clean them out of their beets.</p>
-    <cite>Chris Pratt</cite>
-    <h2>Common Varieties</h2>
-    <ol>
-      <li>Albino</li>
-      <li>Bull's Blood</li>
-      <li>Chioggia</li>
-      <li>Detroit Dark Red</li>
-      <li>Early Wonder</li>
-    </ol>
-    <h2>Nutritional</h2>
-    <dl>
-      <dt><data value="100g">Serving size: 100 g</data></dt>
-      <dt><data value="180 kJ">Energy: 180 kJ</data></dt>
-      <dd><data value="9.96 g">Carbohydrates: 9.96 g</data></dd>
-      <dd><data value="0.18 g">Fat: 0.18 g</data></dd>
-      <dd><data value="1.68 g">Protein: 1.68 g</data></dd>
-    </dl>
-  </main>
+  </header>
+
+  <section class="boldfont">
+    <p>55 to 65 days are needed from germination to harvest root.</p>
+  </section>
+
+  <p id="paragraph">The usually deep purple roots of <b>beetroot</b> are eaten either grilled, boiled, or roased as a cooked vegetable, cold as a salad after cooking and adding oil and vinegar, or raw and shredded, either alone or combined with any salad vegetable.</p>
+
+  <p>In fact <cite>Jim Halpert</cite> once said this about beets,<q>Fact, bears eat beets. Bears, beets, <i>Battlestar Galactica</i>.</q></p>
+
+  <blockquote>I have some <em>weird</em> habits. For instance, <strong>I love beets.</strong> Show me a salad bar and I will clean them out of their beets.<br>
+
+    <section class="chrispratt">
+      <cite>– Chris Pratt</cite>
+    </section>
+  </blockquote>
+
+  <h2>Common varities</h2>
+  <ol>
+    <li>Albino</li>
+    <li>Bull's Blood</li>
+    <li>Chioggia</li>
+    <li>Detroit Dark Red</li>
+    <li>Early Wonder</li>
+  </ol>
+  <h2>Nutritional informaiton</h2>
+
+  <section class="italic">
+    <p>Serving size: 100g</p>
+  </section>
+  <dl>
+    <dt>Energy:</dt>
+    <dd><data value="180">180 kJ</data></dd>
+    <dt>Carbohydrates:</dt>
+    <dd><data value="9.96">9.96 g</data></dd>
+    <dt>Fat:</dt>
+    <dd><data value="0.18g">0.18g</data></dd>
+    <dt>Protein:</dt>
+    <dd><data value="1.68">1.68 g</data></dd>
+  </dl>
+
   <aside>
     <h2>Tags</h2>
     <ul>
@@ -60,8 +79,13 @@
       <li>Delicious</li>
     </ul>
   </aside>
+
   <footer>
-    <small>Source:<a href="www.wikipedia.com/beets">Wikipedia;</a>Last modified: <time datetime="2014-08-30">Aug,30,2014</time></small>
+    <section class="link">
+      <small>
+        Source: <a href="http://wikipedia.com">Wikipedia</a>; Last modified: <time datetime="2014-08-30">Aug 30, 2014</time>
+        </small>
+    </section>
   </footer>
 
 </body>
