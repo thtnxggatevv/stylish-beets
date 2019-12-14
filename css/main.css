@@ -1,81 +1,59 @@
 html {
-  background-color: #c9b5ae;
-}
-
-h1, h2 {
-  color: #471c38;
-  font-family: "PT Sans", sans-serif;
+  background-color: #c9b5ab;
+  font-family: PT, sans-serif;
   font-weight: bold;
-}
-
-nav,
-.list-1 {
-  font-family: "PT Sans", sans-serif;
-  font-weight: bold;
-  color: #99213d;
-  list-style-type: none;
+  line-height: 1.5;
 }
 
 img {
   width: 100%;
 }
 
+h1, h2 {
+  color: #3f1622;
+  font-family: "PT Sans", sans-serif;
+}
+
 figcaption {
+  font-size: 1.125rem;
   font-style: italic;
+  font-weight: normal;
   text-align: center;
 }
 
-.large-text {
-  font-family: "PT Serif", serif;
-  font-weight: bold;
-  font-size: 1.2rem;
+nav {
+  font-family: PT, serif;
+  font-size: .8rem;
 }
 
-.body-text {
-  font-family: "PT Serif", serif;
-  font-weight: normal;
-  line-height: 1.5;
+nav ol {
+  list-style-type: none;
 }
 
-blockquote {
-  font-family: "PT Serif", serif;
-  font-style: italic;
-  font-size: 1.5rem;
-  line-height: 1.5;
-}
-
-.chris-pratt {
-  font-weight: normal;
-  font-size: 1.5rem;
-}
-
-.list-2 {
-  font-family: "PT Serif", serif;
-  list-style-type: lower-greek;
-}
-
-h2 + p {
-  font-style: italic;
-}
-
-dl, ul, footer {
-  font-family: "PT Serif", serif;
-}
-
-dt {
-  font-weight: bold;
-}
-
-ul {
-  list-style-type: circle;
-}
-
-a {
-  color: #99213d;
+nav a {
+  color: #8f2440;
   text-decoration: none;
 }
 
 a:hover {
-  color: #471c38;
+  color: #3f1622;
   text-decoration: underline;
+}
+
+a {
+  color: #8f2440;
+  text-decoration: none;
+  list-style: none;
+}
+
+.albino {
+  font-family: "PT Serif", serif;
+  font-size: .8rem;
+  list-style-type: lower-greek;
+}
+
+.paragraph {
+  font-family: "PT Serif", serif;
+  font-size: 1.125rem;
+  font-weight: lighter;
 }
