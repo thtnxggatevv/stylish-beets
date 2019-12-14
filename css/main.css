@@ -1,5 +1,3 @@
-
-
 html {
   background-color: #c9b5ab;
 }
@@ -44,7 +42,7 @@ strong {
 }
 
 ol {
-  list-style-type:lower-greek;
+  list-style-type: lower-greek;
 }
 
 .italic {
@@ -71,7 +69,7 @@ dd {
 ul {
   list-style-type: circle;
   font-family: "PT Serif", serif;
-  font-size: 0.8rem;
+  font-size: .8rem;
 }
 
 .boldfont {
@@ -94,7 +92,7 @@ blockquote {
 
 .chrispratt {
   line-height: 6rem;
-  font-size: 0.8rem;
+  font-size: .8rem;
 }
 
 .link {
